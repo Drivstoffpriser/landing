@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="no">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drivstoffpriser – Finn beste pris nær deg</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&family=Inter:wght@400;500&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --bg: #F8F9FA;
@@ -20,7 +23,9 @@
             --pill: 100px;
         }
 
-        *, *::before, *::after {
+        *,
+        *::before,
+        *::after {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
@@ -45,9 +50,9 @@
             background: var(--card);
             border-radius: var(--radius);
             box-shadow:
-                0 0 0 1px rgba(0,0,0,0.04),
-                0 2px 4px rgba(0,0,0,0.04),
-                0 12px 40px rgba(0,0,0,0.08);
+                0 0 0 1px rgba(0, 0, 0, 0.04),
+                0 2px 4px rgba(0, 0, 0, 0.04),
+                0 12px 40px rgba(0, 0, 0, 0.08);
             padding: 40px 36px 32px;
             width: 100%;
             max-width: 440px;
@@ -150,7 +155,7 @@
         .btn:hover {
             opacity: 0.87;
             transform: translateY(-1px);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
         }
 
         .btn:active {
@@ -250,7 +255,7 @@
         .modal {
             background: var(--card);
             border-radius: var(--radius);
-            box-shadow: 0 24px 64px rgba(0,0,0,0.18);
+            box-shadow: 0 24px 64px rgba(0, 0, 0, 0.18);
             padding: 32px 28px 28px;
             width: 100%;
             max-width: 420px;
@@ -329,6 +334,7 @@
                 justify-content: flex-start;
                 padding: 0;
             }
+
             .card {
                 padding: 40px 24px 32px;
                 border-radius: 0;
@@ -336,15 +342,18 @@
                 box-shadow: none;
                 min-height: 100vh;
             }
+
             .hero h1 {
                 font-size: 1.625rem;
             }
+
             .modal {
                 padding: 28px 20px 24px;
             }
         }
     </style>
 </head>
+
 <body>
     <main class="card">
 
@@ -357,25 +366,29 @@
         <div class="badges">
             <span class="badge badge--green">
                 <svg viewBox="0 0 16 16" fill="currentColor" width="11" height="11" aria-hidden="true">
-                    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/>
+                    <path
+                        d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z" />
                 </svg>
                 Gratis
             </span>
             <span class="badge badge--green">
                 <svg viewBox="0 0 16 16" fill="currentColor" width="11" height="11" aria-hidden="true">
-                    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/>
+                    <path
+                        d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z" />
                 </svg>
                 Dugnadsbasert
             </span>
             <span class="badge badge--green">
                 <svg viewBox="0 0 16 16" fill="currentColor" width="11" height="11" aria-hidden="true">
-                    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/>
+                    <path
+                        d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z" />
                 </svg>
                 Åpen kildekode
             </span>
             <span class="badge badge--green">
                 <svg viewBox="0 0 16 16" fill="currentColor" width="11" height="11" aria-hidden="true">
-                    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z"/>
+                    <path
+                        d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.75.75 0 0 1 1.06-1.06L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0z" />
                 </svg>
                 Null reklame
             </span>
@@ -386,12 +399,12 @@
         <div class="links">
 
             <!-- iOS App Store -->
-            <a class="btn btn--dark"
-               href="https://apps.apple.com/no/app/drivstoffpriser-norge/id6761013916"
-               target="_blank" rel="noopener">
+            <a class="btn btn--dark" href="https://apps.apple.com/no/app/drivstoffpriser-norge/id6761013916"
+                target="_blank" rel="noopener">
                 <span class="btn-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
-                        <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        <path
+                            d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
                     </svg>
                 </span>
                 <span class="btn-label">
@@ -404,7 +417,8 @@
             <a class="btn btn--dark" href="#android-modal">
                 <span class="btn-icon" aria-hidden="true">
                     <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
-                        <path d="M3.18 23.76c.3.17.64.25.99.22l.1-.04L13.64 14 10 10.37 3.18 23.76zm17.49-11.03-3.07-1.75-3.81 3.8 3.81 3.8 3.1-1.77c.88-.5.88-1.6-.03-2.08zM2.1.25C1.88.49 1.75.85 1.75 1.33V22.7c0 .48.14.84.37 1.07L10 14 2.1.25zm9.54 9.43L3.27.32l-.1-.04c-.35-.03-.69.05-.99.22L9.9 10.23l1.74-1.75-.01.2z"/>
+                        <path
+                            d="M3.18 23.76c.3.17.64.25.99.22l.1-.04L13.64 14 10 10.37 3.18 23.76zm17.49-11.03-3.07-1.75-3.81 3.8 3.81 3.8 3.1-1.77c.88-.5.88-1.6-.03-2.08zM2.1.25C1.88.49 1.75.85 1.75 1.33V22.7c0 .48.14.84.37 1.07L10 14 2.1.25zm9.54 9.43L3.27.32l-.1-.04c-.35-.03-.69.05-.99.22L9.9 10.23l1.74-1.75-.01.2z" />
                     </svg>
                 </span>
                 <span class="btn-label">
@@ -414,15 +428,14 @@
             </a>
 
             <!-- Web app -->
-            <a class="btn btn--outline"
-               href="https://web.drivstoffpriser.net"
-               target="_blank" rel="noopener">
+            <a class="btn btn--outline" href="https://web.drivstoffpriser.net" target="_blank" rel="noopener">
                 <span class="btn-icon" aria-hidden="true">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                         stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
-                        <circle cx="12" cy="12" r="10"/>
-                        <line x1="2" y1="12" x2="22" y2="12"/>
-                        <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" width="20" height="20">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="2" y1="12" x2="22" y2="12" />
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
                     </svg>
                 </span>
                 <span class="btn-label">
@@ -437,8 +450,8 @@
             <span class="dot" aria-hidden="true">·</span>
             <a href="https://discord.gg/Wn63s7AW" target="_blank" rel="noopener">Discord</a>
             <span class="dot" aria-hidden="true">·</span>
-            <a href="https://drivstoffpriser.github.io/Drivstoffpriser-App/privacy-policy.html"
-               target="_blank" rel="noopener">Personvernerklæring</a>
+            <a href="https://drivstoffpriser.github.io/Drivstoffpriser-App/privacy-policy.html" target="_blank"
+                rel="noopener">Personvernerklæring</a>
         </footer>
 
     </main>
@@ -449,27 +462,71 @@
             <a href="#" class="modal-close" aria-label="Lukk">&times;</a>
             <h2 id="modal-title">
                 <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
-                    <path d="M3.18 23.76c.3.17.64.25.99.22l.1-.04L13.64 14 10 10.37 3.18 23.76zm17.49-11.03-3.07-1.75-3.81 3.8 3.81 3.8 3.1-1.77c.88-.5.88-1.6-.03-2.08zM2.1.25C1.88.49 1.75.85 1.75 1.33V22.7c0 .48.14.84.37 1.07L10 14 2.1.25zm9.54 9.43L3.27.32l-.1-.04c-.35-.03-.69.05-.99.22L9.9 10.23l1.74-1.75-.01.2z"/>
+                    <path
+                        d="M3.18 23.76c.3.17.64.25.99.22l.1-.04L13.64 14 10 10.37 3.18 23.76zm17.49-11.03-3.07-1.75-3.81 3.8 3.81 3.8 3.1-1.77c.88-.5.88-1.6-.03-2.08zM2.1.25C1.88.49 1.75.85 1.75 1.33V22.7c0 .48.14.84.37 1.07L10 14 2.1.25zm9.54 9.43L3.27.32l-.1-.04c-.35-.03-.69.05-.99.22L9.9 10.23l1.74-1.75-.01.2z" />
                 </svg>
                 Android
             </h2>
             <p style="font-size:0.875rem;color:var(--muted);margin-bottom:16px;">Du har to valg:</p>
             <div class="modal-section">
                 <h3>Google Play Store</h3>
-                <p>Under publisering — vi trenger 12 testere for å oppfylle Googles krav.
-                   Ta kontakt på <a href="https://discord.gg/Wn63s7AW" target="_blank" rel="noopener">Discord</a>
-                   eller <a href="mailto:drivstoffpriser@pm.me">send oss en e-post</a>
-                   for å bli Android-tester.</p>
+                <p style="margin-bottom:12px;">Under publisering — bli med som tester ved å oppgi Google Play-kontoen
+                    din:</p>
+                <form id="tester-form" style="display:flex;flex-direction:column;gap:10px;">
+                    <input type="email" id="tester-email" placeholder="Google Play e-post" required
+                        style="padding:10px 14px;border:1.5px solid var(--border);border-radius:var(--pill);font-family:inherit;font-size:0.875rem;outline:none;transition:border-color 0.15s;"
+                        onfocus="this.style.borderColor='var(--primary)'"
+                        onblur="this.style.borderColor='var(--border)'">
+                    <button type="submit" id="tester-btn"
+                        style="padding:10px 14px;border:none;border-radius:var(--pill);background:var(--primary);color:#fff;font-family:'Space Grotesk',sans-serif;font-size:0.875rem;font-weight:600;cursor:pointer;transition:opacity 0.15s;">
+                        Bli tester
+                    </button>
+                    <p id="tester-msg" style="font-size:0.8125rem;text-align:center;display:none;"></p>
+                </form>
             </div>
             <div class="modal-section">
                 <h3>APK</h3>
                 <p>Last ned den nyeste .apk direkte fra
-                    <a href="https://github.com/Drivstoffpriser/Drivstoffpriser-App/releases"
-                       target="_blank" rel="noopener">GitHub Releases</a>.
+                    <a href="https://github.com/Drivstoffpriser/Drivstoffpriser-App/releases" target="_blank"
+                        rel="noopener">GitHub Releases</a>.
                 </p>
             </div>
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        emailjs.init('vhpmgrlSDUBKS5tLZ');
+
+        document.getElementById('tester-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            var btn = document.getElementById('tester-btn');
+            var msg = document.getElementById('tester-msg');
+            btn.disabled = true;
+            btn.textContent = 'Sender…';
+            msg.style.display = 'none';
+
+            var email = document.getElementById('tester-email').value;
+            var params = { name: email.split('@')[0], email: email };
+
+            Promise.all([
+                emailjs.send('service_76pmzlh', 'template_c7e63fr', params),
+                emailjs.send('service_76pmzlh', 'template_b9zx69v', params)
+            ]).then(function () {
+                msg.textContent = 'Takk! Vi legger deg til som tester snart.';
+                msg.style.color = 'var(--green)';
+                msg.style.display = 'block';
+                btn.textContent = 'Sendt!';
+            }, function () {
+                msg.textContent = 'Noe gikk galt — prøv igjen.';
+                msg.style.color = '#DC2626';
+                msg.style.display = 'block';
+                btn.disabled = false;
+                btn.textContent = 'Bli tester';
+            });
+        });
+    </script>
+
 </body>
+
 </html>
